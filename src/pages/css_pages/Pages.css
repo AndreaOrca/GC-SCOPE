@@ -26,3 +26,7 @@
 .hero_image {
 	width: 50%;
 }
+
+.hero_image img {
+	width: 100%;
+}
