@@ -1,4 +1,4 @@
-.login_row {
+/* .login_row {
     background-color: var(--gcoach-secondary-color);
 }
 
@@ -25,4 +25,25 @@
     width: 55%;
     background-color: var(--alt-white);
     clip-path: polygon(5% 0%,100% 0%,100% 100%,0% 100%);
+} */
+
+.login_page_container {
+    width: 100%;
+    display: flex;
+}
+
+.left_section {
+    height: 100vh;
+    background-size: cover;
+    background-image: url(/src/assets/gc_school.JPG);
+}
+
+.left_section, 
+.right_section {
+    width: 50%;
+}
+
+.right_section {
+    display: flex;
+    justify-content: center;
 }

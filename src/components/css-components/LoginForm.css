@@ -21,6 +21,10 @@
     margin-bottom: 2rem;
 }
 
+.login_form {
+    text-align: -webkit-center;
+}
+
 #username {
     margin-bottom: 1rem;
 }
